@@ -1,0 +1,49 @@
+@font-face {
+    font-family: myFirstFont;
+    src: local('Orbitron Regular'), local('Orbitron-Regular'), url(https://fonts.gstatic.com/s/orbitron/v8/HmnHiRzvcnQr8CjBje6GQvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
+
+body {
+    margin:150px;
+}
+
+h1 {
+    font-family: myFirstFont;
+    font-size: 3em;
+}
+
+a[href] {
+    font-family: 'Permanent Marker', cursive;;
+}
+
+a:link {
+    color: blueviolet;
+}
+
+a:visited {
+    color: sandybrown;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+    text-decoration: overline;
+}
+
+a:active {
+    color: green;
+}
+
+strong {
+    font-size: larger;
+    color: chocolate;
+    font-family: 'Baloo Tammudu', cursive;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Monda', sans-serif;
+    color: crimson;
+}
+
+
